@@ -1,31 +1,30 @@
 html {
   scroll-behavior: smooth;
 }
-main{
+main {
   padding-top: 100px;
 }
-section[id]{
+section[id] {
   scroll-margin-top: 80px;
 }
-.Inicio{
+.Inicio {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.eslogan{
-  color: rgba(1,128,54,255);
+.eslogan {
+  color: rgba(1, 128, 54, 255);
   font-size: 50px;
   align-items: center;
   justify-content: center;
 }
 
-
-.Acerca img{
+.Acerca img {
   width: 63%;
 }
-.Text_acerca{
+.Text_acerca {
   font-size: 40px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
@@ -34,36 +33,44 @@ section[id]{
   border-radius: 15px;
 }
 
-.titulo_productos{
- width: 100%;
- height: 50px;
- background-image: linear-gradient(to left,rgb(0, 214, 252),rgba(0,92,94,255)); 
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 40px;
-font-weight: 700;
-color: #fff;
+.titulo_productos {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(
+    to left,
+    rgb(0, 214, 252),
+    rgba(0, 92, 94, 255)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
 }
-.container_productos{
+.container_productos {
   display: flex;
 }
 
-.img_expo{
+.img_expo {
   width: 30%;
 }
-.Servicio{
+.Servicio {
   display: flex;
 }
 
-.Servicio img{
+.Servicio img {
   width: 65%;
 }
-.Btn_descargas{
+.Btn_descargas {
   width: 450px;
   height: 70px;
-  background-image: linear-gradient(to left ,rgba(1,128,54,255),rgba(0,92,94,255));
+  background-image: linear-gradient(
+    to left,
+    rgba(1, 128, 54, 255),
+    rgba(0, 92, 94, 255)
+  );
   color: #fff;
   border-radius: 5px;
   display: flex;
@@ -71,10 +78,82 @@ color: #fff;
   justify-content: center;
   font-weight: 700;
 }
-.Text_descarga{
+.Text_descarga {
   font-size: 50px;
   font-weight: 700;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
+.Contacto {
+  display: block;
+}
+.img_contacto {
+  width: 600px;
+  height: 200px;
+}
+.Container_contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.titulo_con {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(
+    to left,
+    rgb(0, 214, 252),
+    rgba(0, 92, 94, 255)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.Contacto form {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border: solid rgba(0, 92, 94, 255);
+  border-radius: 5px;
+  position: static;
+}
+.container_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input_form {
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.cajatexto {
+  width: 80%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.boton_enviar {
+  width: 80%;
+  height: 35px;
+  background-image: linear-gradient(
+    to left,
+    rgba(1, 128, 54, 255),
+    rgba(0, 92, 94, 255)
+  );
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+.Contacto label {
+  color: rgba(0, 92, 94, 255);
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
