@@ -9,8 +9,12 @@
   color: white;
 }
 .info_container{
-  text-align: left;
+  text-align: center;
   color: white;
+  padding-top: 10px;
+}
+.info_container h3{
+  margin-top: 20px;
 }
 .copi_container{
   text-align: center;

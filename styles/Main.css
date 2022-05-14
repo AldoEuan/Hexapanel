@@ -131,11 +131,19 @@ section[id] {
   width: 80%;
   margin-top: 15px;
   margin-bottom: 15px;
+  border: solid rgba(0, 92, 94, 255);
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
 }
 .cajatexto {
   width: 80%;
   height: 100px;
   margin-bottom: 15px;
+  border: solid rgba(0, 92, 94, 255);
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
 }
 .boton_enviar {
   width: 80%;
@@ -156,4 +164,9 @@ section[id] {
   font-weight: 700;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 40px;
+}
+
+
+.img_expo{
+  
 }
