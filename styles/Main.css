@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+main{
+  padding-top: 100px;
+}
+section[id]{
+  scroll-margin-top: 80px;
+}
+.Inicio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eslogan{
+  color: rgba(1,128,54,255);
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Acerca img{
+  width: 63%;
+}
+.Text_acerca{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.titulo_productos{
+ width: 100%;
+ height: 50px;
+ background-image: linear-gradient(to left,rgb(0, 214, 252),rgba(0,92,94,255)); 
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+font-weight: 700;
+color: #fff;
+}
+.container_productos{
+  display: flex;
+}
+
+.img_expo{
+  width: 30%;
+}
+.Servicio{
+  display: flex;
+}
+
+.Servicio img{
+  width: 65%;
+}
+.Btn_descargas{
+  width: 450px;
+  height: 70px;
+  background-image: linear-gradient(to left ,rgba(1,128,54,255),rgba(0,92,94,255));
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.Text_descarga{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+

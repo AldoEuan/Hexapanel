@@ -1,0 +1,22 @@
+.footer_container{
+  background-color: rgba(14,21,36,255);
+  
+ 
+}
+.contacto_container{
+  background-color: rgba(0,92,94,255);
+  text-align: center;
+  color: white;
+}
+.info_container{
+  text-align: left;
+  color: white;
+}
+.copi_container{
+  text-align: center;
+color: white;
+}
+.logoverde{
+  width: 255px;
+ 
+}
