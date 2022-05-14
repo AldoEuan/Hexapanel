@@ -175,10 +175,10 @@ section[id] {
 .Servicio {
   display: block;
 }
-.Contacto{
+.Container_contacto{
   display: block;
 }
-.Productos{
+.container_productos{
   display: block;
 }
 }
