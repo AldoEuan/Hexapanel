@@ -170,3 +170,15 @@ section[id] {
 .img_expo{
   
 }
+
+@media (max-width: 400px) { 
+.Servicio {
+  display: block;
+}
+.Contacto{
+  display: block;
+}
+.Productos{
+  display: block;
+}
+}
