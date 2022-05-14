@@ -167,9 +167,6 @@ section[id] {
 }
 
 
-.img_expo{
-  
-}
 
 @media (max-width: 400px) { 
 .Servicio {
@@ -180,5 +177,11 @@ section[id] {
 }
 .container_productos{
   display: block;
+}
+.input_form {
+  width: auto;
+}
+.img_contacto{
+  width: 350px;
 }
 }
