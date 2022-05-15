@@ -57,6 +57,7 @@ section[id] {
   width: 30%;
 }
 .Servicio {
+  width: 100%;
   display: flex;
 }
 
@@ -171,6 +172,9 @@ section[id] {
 
 
 @media (max-width: 400px) { 
+.img_acerca{
+  width: 350px;
+}
 .Servicio {
   display: block;
 }
@@ -184,12 +188,19 @@ section[id] {
   width: auto;
 }
 .Servicio{
-  width: 350px;
+  width: 0%;
 }
-.Contacto{
+.Contacto form{
   width: 350px;
 }
 .img_contacto{
   width: 350px;
+}
+.Btn_descargas {
+  width: 350px;
+}
+.img_expo{
+  width: 350px;
+
 }
 }
