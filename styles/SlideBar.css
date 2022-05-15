@@ -3,7 +3,7 @@
   position: fixed;
   width: 200px;
   height: 100%;
-  background: #151719;
+  background: white;
   left: -200px;
   transition: all 500ms linear;
   visibility: hidden;
@@ -14,15 +14,17 @@
 }
 
 #sidebar ul li {
-  color: rgba(230, 230, 230, .9);
+  color: rgba(0, 92, 94, 255);
   list-style: none;
   padding: 15px 10px;
-  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  border-bottom: 1px solid rgba(0, 92, 94, 255);
   text-align: center;
-  
-
+  text-decoration: none;
+  font-weight: 700;
 }
-
+a{
+  text-decoration: none;
+}
 .logo {
   border-radius: 50%;
   display: block;
