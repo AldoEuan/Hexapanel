@@ -183,8 +183,13 @@ section[id] {
 .input_form {
   width: auto;
 }
+.Servicio{
+  width: 350px;
+}
+.Contacto{
+  width: 350px;
+}
 .img_contacto{
   width: 350px;
 }
-*{width: 350px;}
 }
